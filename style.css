@@ -4,7 +4,14 @@
 }
 
 body{
-    background: #1D201F;
+   
+    background-image:
+    linear-gradient(to bottom, rgba(16, 41, 182, 0.52), rgba(91, 194, 105, 0.73)),
+    url('grade.png');
+
+    background-size: cover;
+    color: rgb(119, 35, 35);
+    padding: 20px;
 }
 
 .container{
@@ -16,7 +23,9 @@ body{
 }
 
 h1{
-    color: #F7EDE2;
+    text-shadow: -1px 0 rgb(46, 28, 150), 0 1px rgb(121, 17, 17), 1px 0 black, 0 -1px black;
+
+    font-family: sans; color: rgb(94, 219, 90);;
 }
 
 .input_grp{
@@ -34,15 +43,14 @@ input{
     transition: 0.2s;
     font-size: 24px;
     border-radius: 5px;
-    background: #F7EDE2;
+    background:linear-gradient(to bottom, rgba(13, 165, 102, 0.52), rgba(126, 23, 23, 0.73));
 }
 input:focus{
     outline: none;
-    border-bottom: 2px solid #2C497F;
+    border-bottom: 2px solid #1d54b9;
 }
 button{
-    background: #2C497F;
-    color: white;
+    background: linear-gradient(to bottom, rgba(13, 165, 102, 0.52), rgba(126, 23, 23, 0.73));
     border: none;
     border-bottom: 2px solid transparent;
     outline: none;
@@ -51,7 +59,7 @@ button{
     border-radius: 5px;
 }
 .table{
-    background: #F7EDE2;
+    background: linear-gradient(to bottom, rgba(13, 165, 102, 0.52), rgba(126, 23, 23, 0.73));
     width: 80%;
     font-size: 24px;
 }
