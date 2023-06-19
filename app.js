@@ -33,7 +33,7 @@ else if (inputValue >= 51 && inputValue <= 60)
    {B_Minus.textContent = parseInt(B_Minus.textContent) + 1;} 
 else if (inputValue >= 40 && inputValue <= 50)
    {C.textContent = parseInt(C.textContent) + 1;} 
-else if (inputValue < 40) 
+else if (inputValue < 40 &&  inputValue >=0) 
    {F.textContent = parseInt(F.textContent) + 1;}
 
  //after calculation done the user number will remove 
