@@ -21,7 +21,7 @@ form.addEventListener('submit', function(event) {
 
   //calculation in grade system
 
-if(inputValue>100 && inputValue<0)
+if(inputValue<0 && inputValue>100)
    {alert('Please input 1 to 100 marks');}
 else if (inputValue >= 81 && inputValue <= 100) 
    {A.textContent = parseInt(A.textContent) + 1;} 
